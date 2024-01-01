@@ -1,0 +1,24 @@
+nav{
+  background-color: #24353f;
+ box-shadow:-4px -3px 45px 21px rgba(0,0,0,0.35);
+}
+section{
+  background-color: #24353f;
+}
+section .main-home{
+  width: 900px;
+  height: 150px;
+  box-shadow:-4px -3px 45px 21px rgba(0,0,0,0.35);
+}
+#logOut{
+  color: #747575e5;
+  transition: color .2s;
+  letter-spacing: 2;
+}
+#logOut:hover{
+  color: #fff;
+}
+section .main-home h1{
+  color: #45f3ff;
+}
+/*! end home  */

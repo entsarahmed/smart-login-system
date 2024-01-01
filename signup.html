@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <!-- link fontawesome -->
+  <link rel="stylesheet" href="./css/all.css"/>
+  <link rel="stylesheet" href="./css/all.min.css"/>
+  <!-- end fontawesome -->
+
+  <!-- link bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+  <!-- end bootstrap -->
+
+<!-- link css -->
+<link rel="stylesheet" href="./css/signup.css"/>
+<!-- end -->
+</head>
+<body>
+ <div class="box">
+  <form action="">
+    <h2>Smart Login System</h2>
+    <div class="inputBox">
+<input id="nameInputSign" type="text" required>
+<span><i class="fa-solid fa-user"></i> Enter Your Name</span>
+<i class="line"></i>
+    </div>
+    <div class="inputBox">
+      <input id="emailInputSign" type="email" required>
+      <span><i class="fa-solid fa-envelope"></i> Enter Your Email</span>
+      <i class="line"></i>
+          </div>
+    <div class="inputBox">
+      <input id="passwordInputSign" type="password" required>
+      <span><i class="fa-solid fa-lock"></i> Enter Password</span>
+      <i class="line"></i>
+          </div>
+          <span class="text-center text-success pt-2 d-none">Success</span>
+          <span class="text-center text-danger pt-2 d-none">All inputs is required</span>
+          <span class="text-center text-danger pt-2 d-none" id="messageExit">email already exists</span>
+          <input id="btnSignUp" type="button" value="Sign Up">
+          <div class="links">
+            <a class="text-white">You have an account?</a>
+            <a href="index.html">SignIn</a>
+          </div>
+  </form>
+ </div>
+
+
+  <!-- link js -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
